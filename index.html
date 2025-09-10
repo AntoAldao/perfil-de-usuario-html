@@ -3,18 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="A simple web page with personal profile">
     <title>My Web Page</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Web Page</h1>
+        <h1>Mi Perfil</h1>
     </header>
     <main>
-        <p>This is a simple web page structure.</p>
+        <article>
+            <h1>Hola Mi nombre es Antonella</h1>
+            <p>Soy una estudiante de la carrera de Ingenieria en Sistemas de Informacion en la UTN de Mendoza.</p>
+        </article>
+        <table>
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Telefono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>anto@correo.com</td>
+                    <td>123456789</td>
+                </tr>
+            </tbody>
+        </table>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Telefono:</label>
+            <input type="text" id="phone" name="phone">
+            <textarea id="profile" name="profile" rows="4" cols="50" placeholder="Escribe tu descripcion aqui..."></textarea>   
+            <button type="submit">Actualizar</button>
+        </form>
+
     </main>
     <footer>
-        <p>&copy; 2025 My Web Page</p>
+        <p>&copy; 2025 - Antonella Aldao </p>
     </footer>
 </html>
